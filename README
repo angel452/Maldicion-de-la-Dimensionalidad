@@ -1,1 +1,13 @@
-Hola
+** Instrucciones **
+
+1. Clonar Repositorio 
+2. Dentro de la carpeta, ejecutar el comando "cmake -G "Unix Makefiles" -S . -B build"
+3. Entrar a la carpeta buid y ejecutar el comando "make"
+4. Correr el ejecutable que se creo.
+        -> El archivo .cpp lo que hace es exportar un txt con todas los resultados de las distancias obtenidas dependiendo de los parametros que pusimos
+        -> Linea 14: Indica la cantidad de puntos que se crearan 
+        -> Linea 125: Indica la dimencion que tendra cada punto
+5. Luego de tener el txt creado, nos dirigimos a la carpeta /GraficoBarras y ejecutamos el archivo .py. 
+        -> Esto creara en una ventana emergente el grafico con los tados obtenidos del anterior programa
+        -> En la consolda de comandos sandran datos adicionales como cantidad de datos, dato mayor o menor, etc.
+* Para hacer otra prueba, cambiar los parametros del .cpp (si se desea), correr el .cpp, y luego el .py
